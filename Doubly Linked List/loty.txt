@@ -1,0 +1,10 @@
+Katowice Barcelona 12.02.2021 23.02.2021 AirSpain 2300 1
+Krakow Amsterdam 30.12.2021 02.01.2022 Lot 450 1
+Warszawa Phuket 12.08.2022 08.09.2022 AirKorea 3000 0
+Fankfurt Mexico_City 11.07.2022 08.02.2022 USAirlines 6300 1
+Paryz Mauritius 01.01.2002 99.98.9989 AirFrance 9999 0
+Katowice Sharm_el_Sheikh 11.07.2022 08.02.2022 AirCairo 2300 1
+Katowice Gdansk 12.12.2012 17.12.2012 Lot 80 1
+Fankfurt Mexico_City 11.07.2022 08.02.2022 USAirlines 4800 0
+Warszawa Kopenhaga 06.08.2022 17.09.2022 FlyScandinavian 120 0
+Waszyngton Miami 05.01.2022 19.01.2022 USAirlines 300 0

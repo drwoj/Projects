@@ -1,7 +1,7 @@
 #pragma once
 #include "LogicGate.h"
 
-class AndGate : public LogicGate
+class NandGate : public LogicGate
 {
 public:
 	void doLogic() override {
@@ -9,16 +9,16 @@ public:
 		initInputs();
 
 		if (!doLogicValues()) {
-			output = false;
+			output = true;
 			return;
 		}
 
 		if (!doLogicGates()) {
-			output = false;
+			output = true;
 			return;
 		}
 
-		output = true;
+		output = false;
 	}
 
 	bool doLogicGates() {
@@ -28,7 +28,7 @@ public:
 			if (!temp->getOutput())
 				return false;
 		}
-		
+
 		return true;
 	}
 
@@ -40,11 +40,6 @@ public:
 		return true;
 	}
 
-	AndGate(std::string name, unsigned numInputs, std::vector<std::weak_ptr<LogicGate>> inGates, std::vector<bool> inValues)
-		: LogicGate(name, numInputs, inGates, inValues){}
-
-
-	~AndGate() {
-	//	std::cout << "Destructor called ";
-	}
+	NandGate(std::string name, unsigned numInputs, std::vector<std::weak_ptr<LogicGate>> inGates, std::vector<bool> inValues)
+		: LogicGate(name, numInputs, inGates, inValues) {}
 };
